@@ -75,12 +75,3 @@ class Game
   end
 
 end
-
-
-game1 = Game.new
-
-game1.start
-
-# game contains everything needed for a single round of the game
-# Holds current turn (game loop), players, and questions
-# Methods: start: initializes player1 and player2 and then ask_questions until player1 or player2's lives left = 0
